@@ -1,7 +1,10 @@
+import joblib
 from flask import Flask, render_template
 
 app = Flask(__name__)
 
+# Load ML model
+linearModel = joblib.load('./notebooks/regr.pkl')
 
 @app.route('/')
 def index():
