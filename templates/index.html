@@ -32,15 +32,15 @@
             <div class="form-row">
                 <div class="form group col-md-3 mb-3">
                     <label for="beds">beds</label>
-                    <input name="beds" id="beds" value={{beds}}>
+                    <input class="form-control" name="beds" id="beds" value={{beds}}>
                 </div>
                 <div class="form group col-md-3 mb-3">
                     <label for="baths">baths</label>
-                    <input id="baths"  name="baths" value={{baths}}>
+                    <input class="form-control" id="baths"  name="baths" value={{baths}}>
                 </div>
                 <div class="form group col-md-3 mb-3">
                     <label for="sqft">sqft</label>
-                    <input id="sqft" name="sqft" value={{sqft}}>
+                    <input class="form-control" id="sqft" name="sqft" value={{sqft}}>
                 </div>
             </div>
 
@@ -48,15 +48,15 @@
             <div class="form-row">
                 <div class="form group col-md-3 mb-3">
                     <label for="age">age</label>
-                    <input id="age"  name="age" value={{age}}>
+                    <input class="form-control" id="age"  name="age" value={{age}}>
                 </div>
                 <div class="form group col-md-3 mb-3">
                     <label for="lotsize">lotsize</label>
-                    <input id="lotsize" name="lotsize" value={{lotsize}}>
+                    <input class="form-control" id="lotsize" name="lotsize" value={{lotsize}}>
                 </div>
                 <div class="form group col-md-3 mb-3">
                     <label for="garage">garages</label>
-                    <input id="garage" name="garages" value={{garages}}>
+                    <input class="form-control" id="garage" name="garages" value={{garages}}>
                 </div>
             </div>
 
@@ -69,7 +69,7 @@
                 <option value="tree">Decision Tree Regression</option>
             </select>
 
-            <button type="submit">Run</button> <!-- was clearclicked -->
+            <button type="submit" class="btn btn-primary">Run</button> <!-- was clearclicked -->
         </form>
 
         <h2 id = "result" class="d-block bg-warning text-white">{{prediction}}</h2>
